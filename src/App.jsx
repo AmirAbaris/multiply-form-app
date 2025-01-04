@@ -1,10 +1,11 @@
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <>
-      <h1>hello form app</h1>
-    </>
+    <main className="container mx-auto px-12 py-12">
+      <Hero />
+    </main>
   );
 }
 
